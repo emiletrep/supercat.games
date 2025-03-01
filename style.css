@@ -1,0 +1,120 @@
+body {
+    font-family: "VT323", sans-serif;
+    font-size: 22px;
+    line-height: 1.6;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+
+::selection {
+    background-color: #ffcc00; /* Change the background color of the selection */
+    color: #000; /* Change the text color */
+  }
+
+h1 {
+    font-family: "Tiny5", sans-serif;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:60px;
+    align-items:center;
+}
+
+.member {
+    display: flex;
+    align-items: center;
+}
+
+.thumbnail {
+    width: 450px;
+    height: auto;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.image {
+    width: 300px;
+    height: auto;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.pushRight {
+    margin-left: 100px;
+}
+
+.pushLeft {
+    margin-right: 100px;
+}
+
+.text {
+    max-width: 400px;
+    text-align: left;
+}
+
+.text h1 {
+    font-family: "VT323", sans-serif;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.gameGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.gameCard {
+    padding: 10px;
+}
+
+.gameCard:hover img {
+    transform: scale(1.05);
+}
+
+.gameCard img {
+    transition: transform 0.1s ease-in-out;
+    width: 100%;
+}
+
+.gameCard h3 {
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.gameCard a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    margin-top: 5px;
+}
+
+.no-margin {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#footer {
+    font-family: "Jacquard 12", serif;
+    font-weight: 400;
+    font-style: normal;
+}
