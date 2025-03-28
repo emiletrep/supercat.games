@@ -72,6 +72,14 @@ p {
     margin-top: 10px;
 }
 
+a {
+    text-decoration: none;
+}
+
+a h1 {
+    color: rgb(33, 122, 255);
+}
+
 .gameGrid {
     display: flex;
     flex-wrap: wrap;
